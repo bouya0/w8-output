@@ -30,3 +30,14 @@
   border-radius: 6px;
   text-align: center;
 }
+/* grid-layout-c */
+.grid-layout-c {
+}
+.grid-item-c {
+  width: 60px;
+  padding: 10px;
+  color: #fff;
+  background-color: yellow;
+  border-radius: 6px;
+  text-align: center;
+}
