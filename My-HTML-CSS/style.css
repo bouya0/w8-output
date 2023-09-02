@@ -32,6 +32,9 @@
 }
 /* grid-layout-c */
 .grid-layout-c {
+  width: 40%;
+  display: flex;
+  gap: 4px;
 }
 .grid-item-c {
   width: 60px;
