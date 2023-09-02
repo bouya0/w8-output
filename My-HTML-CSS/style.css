@@ -1,5 +1,5 @@
 .grid-layout-a {
-
+ display: flex;
 }
 .gid-item-a {
     width: 60px;
