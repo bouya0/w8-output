@@ -1,11 +1,10 @@
+/* .grid-container */
 .grid-container {
   max-width: 400px;
   margin: 0 auto;
 }
-
-/* grid-layout */
-.grid-layout {
-  /* max-width: 400px; */
+/* grid-content */
+.grid-content {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
