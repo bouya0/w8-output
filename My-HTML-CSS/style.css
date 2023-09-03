@@ -1,6 +1,7 @@
 /* grid-layout */
 .grid-layout {
-  width: 25%;
+  max-width: 400px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
