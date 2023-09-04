@@ -18,19 +18,18 @@ body {
   margin-bottom: 10px;
 }
 .form-mail,
-.form-pass {
+.form-pass,
+.form-button {
   background-color: #999;
   border-radius: 8px;
   padding: 10px;
   width: 100%;
   border: 1px solid #999;
   margin-bottom: 30px;
+  font-size: 20px;
 }
 .form-button {
-  width: 100%;
-  border-radius: 8px;
   margin-bottom: 30px;
-  padding: 10px;
   background-color: rgb(37, 105, 208);
   color: #fff;
   border: 1px solid rgb(37, 105, 208);
@@ -43,4 +42,17 @@ body {
 .form-signUp > a {
   color: rgb(37, 105, 208);
   margin-left: 10px;
+}
+
+@media (max-width: 650px) {
+  .form-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .form-mail,
+  .form-pass,
+  .form-button {
+    font-size: 15px;
+  }
 }
