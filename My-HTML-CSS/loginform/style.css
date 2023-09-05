@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(2, 21, 50);
+  color: #fff;
+}
+/* form */
+.form-content {
+  width: 50%;
+  margin: 0 auto;
+}
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+}
+.form-mail,
+.form-pass,
+.form-button {
+  background-color: #999;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #999;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.form-button {
+  margin-bottom: 30px;
+  background-color: rgb(37, 105, 208);
+  color: #fff;
+  border: 1px solid rgb(37, 105, 208);
+}
+.form-button:hover {
+  background-color: rgb(85, 138, 218);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.form-signUp > a {
+  color: rgb(37, 105, 208);
+  margin-left: 10px;
+}
+
+@media (max-width: 650px) {
+  .form-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .form-mail,
+  .form-pass,
+  .form-button {
+    font-size: 15px;
+  }
+}
