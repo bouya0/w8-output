@@ -18,7 +18,7 @@ body {
   margin-bottom: 10px;
 }
 .form-mail,
-.form-pass,
+.form-password,
 .form-button {
   background-color: #999;
   border-radius: 8px;
@@ -51,7 +51,7 @@ body {
   }
 
   .form-mail,
-  .form-pass,
+  .form-password,
   .form-button {
     font-size: 15px;
   }
