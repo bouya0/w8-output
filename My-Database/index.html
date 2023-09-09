@@ -7,7 +7,8 @@
     <title>My LoginForm</title>
   </head>
   <body>
-    <form class="form-content" action="post">
+    <!-- 新たにjs-formというidを定義 -->
+    <form class="form-content" id="js-form" action="">
       <h1>Sign in to your account</h1>
       <label class="form-label" for="">Your email</label>
       <input
@@ -18,8 +19,14 @@
         placeholder="name@company.com"
       />
       <label class="form-label" for="">Password</label>
-      <input class="form-password" id="js-password" type="password" name="password" />
-      <button class="form-button" id="js-button">Sign in</button>
+      <input
+        class="form-password"
+        id="js-password"
+        type="password"
+        name="password"
+      />
+      <!-- ボタンにsubmit属性を定義 -->
+      <button class="form-button" id="js-button" type="submit">Sign in</button>
       <div class="form-signUp">
         Don't have an account yet?<a href="">Sign up</a>
       </div>

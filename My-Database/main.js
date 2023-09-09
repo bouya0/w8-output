@@ -1,11 +1,13 @@
 (() => {
   const $doc = document;
+  const $form = document.getElementById("js-form"); //新たなidを取得
   const $email = $doc.getElementById("js-email");
   const $password = $doc.getElementById("js-password");
-  const $button = $doc.getElementById("js-button");
+  // const $button = $doc.getElementById("js-button"); ボタンいらない？
 
-  $button.addEventListener("click", (e) => {
-    e.preventDefault();
+  $form.addEventListener("submit", () => {
+    //$buttonに対してclickイベントだったものを、formに対してsubmitイベントに変更
+    // e.preventDefault();いらない？
 
     const emailValue = $email.value;
     const passwordValue = $password.value;
